@@ -1,0 +1,26 @@
+# Ignore Terraform files
+.terraform/
+
+# Ignore .tfstate files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfstate.*.tmp
+*.tfstate.tmp
+*.terraform.lock.hcl
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .tfvars files that are automatically loaded
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars.json
+*.tfvars
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
